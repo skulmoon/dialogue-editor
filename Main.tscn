@@ -1,0 +1,98 @@
+[gd_scene load_steps=7 format=3 uid="uid://ddwncbyogqcud"]
+
+[ext_resource type="Script" uid="uid://cx7rt5p04j7dk" path="res://Data/Scripts/Menu/LoadButton.cs" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://dl5ifm37jwmti" path="res://Data/Scripts/Menu/OpenFiles.cs" id="2_uu6xs"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_uu6xs"]
+device = -1
+ctrl_pressed = true
+keycode = 76
+
+[sub_resource type="Shortcut" id="Shortcut_r0du0"]
+events = [SubResource("InputEventKey_uu6xs")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_cm0pq"]
+device = -1
+ctrl_pressed = true
+keycode = 83
+
+[sub_resource type="Shortcut" id="Shortcut_fos0i"]
+events = [SubResource("InputEventKey_cm0pq")]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FoldableContainer" type="HSplitContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+split_offset = 225
+
+[node name="PanelContainer" type="PanelContainer" parent="FoldableContainer"]
+layout_mode = 2
+
+[node name="Tree" type="Tree" parent="FoldableContainer/PanelContainer"]
+layout_mode = 2
+columns = 8
+select_mode = 2
+
+[node name="PanelContainer2" type="VSplitContainer" parent="FoldableContainer"]
+layout_mode = 2
+split_offset = 70
+
+[node name="MarginContainer" type="MarginContainer" parent="FoldableContainer/PanelContainer2"]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+
+[node name="HBoxContainer" type="HBoxContainer" parent="FoldableContainer/PanelContainer2/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LoadButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+shortcut = SubResource("Shortcut_r0du0")
+text = "Загрузить диалоги"
+script = ExtResource("1_glv2v")
+
+[node name="SaveButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+shortcut = SubResource("Shortcut_fos0i")
+text = "Сохранить диалоги"
+
+[node name="HSplitContainer" type="HSplitContainer" parent="FoldableContainer/PanelContainer2"]
+layout_mode = 2
+split_offset = 265
+
+[node name="MarginContainer" type="MarginContainer" parent="FoldableContainer/PanelContainer2/HSplitContainer"]
+layout_mode = 2
+
+[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/HSplitContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/HSplitContainer"]
+layout_mode = 2
+
+[node name="OpenFiles" type="FileDialog" parent="."]
+oversampling_override = 1.0
+title = "Open File(s)"
+position = Vector2i(0, 36)
+file_mode = 1
+display_mode = 1
+access = 2
+filters = PackedStringArray("*.json")
+show_hidden_files = true
+use_native_dialog = true
+script = ExtResource("2_uu6xs")
+
+[connection signal="file_selected" from="OpenFiles" to="OpenFiles" method="OnFileSelected"]
