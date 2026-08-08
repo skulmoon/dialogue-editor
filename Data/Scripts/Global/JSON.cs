@@ -26,4 +26,10 @@ public class JSON
         file?.StoreString(jsonTask);
         file?.Close();
     }
+
+    public List<NPCDialogue> GetDialogues(string path) =>
+        GetJsonData<List<NPCDialogue>>(path);
+
+    public void SetDialogues(List<NPCDialogue> dialogues, string path) =>
+        SetJsonData<List<NPCDialogue>>(dialogues, path);
 }

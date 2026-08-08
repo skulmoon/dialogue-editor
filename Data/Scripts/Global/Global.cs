@@ -3,13 +3,13 @@ using System;
 
 public partial class Global : Node
 {
-    public static Variables Variables { get; private set; }
+    public static DialogueData DialogueData { get; private set; }
     public static JSON JSON { get; private set; }
 
     public Global()
     {
         ProcessPriority = 10;
-        Variables = new Variables();
+        DialogueData = new DialogueData();
         JSON = new JSON();
     }
 }

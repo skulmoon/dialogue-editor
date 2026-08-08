@@ -15,6 +15,10 @@ run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Global="*res://Data/Scripts/Global/Global.cs"
+
 [dotnet]
 
 project/assembly_name="DialogueEditor"

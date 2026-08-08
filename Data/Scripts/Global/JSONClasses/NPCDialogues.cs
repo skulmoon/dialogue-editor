@@ -1,9 +1,8 @@
 using Godot;
 using System;
-using Godot.Collections;
+using System.Collections.Generic;
 
-[GlobalClass]
-public partial class NPCDialogues : Resource
+public class NPCDialogues
 {
-    [Export] public Array<NPCDialogue> nPCDialogues { get; set; }
+    public List<NPCDialogue> nPCDialogues { get; set; }
 }

@@ -1,7 +1,18 @@
-[gd_scene load_steps=7 format=3 uid="uid://ddwncbyogqcud"]
+[gd_scene load_steps=28 format=3 uid="uid://ddwncbyogqcud"]
 
 [ext_resource type="Script" uid="uid://cx7rt5p04j7dk" path="res://Data/Scripts/Menu/LoadButton.cs" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://cu843st3gyh0c" path="res://Data/Scripts/Menu/DialogueTree.cs" id="1_r0du0"]
+[ext_resource type="Script" uid="uid://cmmdummsgmi8n" path="res://Data/Scripts/Menu/DialoguePopupMenu.cs" id="2_c6i3y"]
 [ext_resource type="Script" uid="uid://dl5ifm37jwmti" path="res://Data/Scripts/Menu/OpenFiles.cs" id="2_uu6xs"]
+[ext_resource type="Script" uid="uid://dgn1d2pg87faw" path="res://Data/Scripts/Menu/LeftButton.cs" id="3_3dxm6"]
+[ext_resource type="Script" uid="uid://d431jlcohynm" path="res://Data/Scripts/Menu/TextViwer.cs" id="3_cm0pq"]
+[ext_resource type="Script" uid="uid://dp0bq4nxl0ipc" path="res://Data/Scripts/Menu/DialogueSpinBoxNumber.cs" id="4_03owx"]
+[ext_resource type="Script" uid="uid://6mr1yex3u7jw" path="res://Data/Scripts/Menu/RightButton.cs" id="4_lgr22"]
+[ext_resource type="Script" uid="uid://ba2cxdcnhcgsp" path="res://Data/Scripts/Menu/DialogueStepControl.cs" id="6_trn2v"]
+[ext_resource type="Script" uid="uid://bjgpkebdbixpr" path="res://Data/Scripts/Menu/AddStepButton.cs" id="6_wkp8b"]
+[ext_resource type="Script" uid="uid://b042byecsxdbs" path="res://Data/Scripts/Menu/DialogueOptionsControl.cs" id="7_03owx"]
+[ext_resource type="Script" uid="uid://c5kh1qpsbrgca" path="res://Data/Scripts/Menu/AddOptionButton.cs" id="7_20pc6"]
+[ext_resource type="Script" uid="uid://b5nybbobm7dgs" path="res://Data/Scripts/Menu/DeleteStepButton.cs" id="8_5vvyt"]
 
 [sub_resource type="InputEventKey" id="InputEventKey_uu6xs"]
 device = -1
@@ -18,6 +29,47 @@ keycode = 83
 
 [sub_resource type="Shortcut" id="Shortcut_fos0i"]
 events = [SubResource("InputEventKey_cm0pq")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_fos0i"]
+device = -1
+shift_pressed = true
+keycode = 4194319
+
+[sub_resource type="Shortcut" id="Shortcut_3dxm6"]
+events = [SubResource("InputEventKey_fos0i")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_lgr22"]
+device = -1
+shift_pressed = true
+keycode = 4194321
+
+[sub_resource type="Shortcut" id="Shortcut_trn2v"]
+events = [SubResource("InputEventKey_lgr22")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_wkp8b"]
+device = -1
+keycode = 4194437
+unicode = 43
+
+[sub_resource type="Shortcut" id="Shortcut_20pc6"]
+events = [SubResource("InputEventKey_wkp8b")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_5vvyt"]
+device = -1
+shift_pressed = true
+keycode = 4194437
+unicode = 43
+
+[sub_resource type="Shortcut" id="Shortcut_c6i3y"]
+events = [SubResource("InputEventKey_5vvyt")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_c2ibq"]
+device = -1
+keycode = 4194435
+unicode = 45
+
+[sub_resource type="Shortcut" id="Shortcut_j4qnp"]
+events = [SubResource("InputEventKey_c2ibq")]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -36,13 +88,79 @@ grow_horizontal = 2
 grow_vertical = 2
 split_offset = 225
 
-[node name="PanelContainer" type="PanelContainer" parent="FoldableContainer"]
+[node name="Tree" type="Tree" parent="FoldableContainer" node_paths=PackedStringArray("Menu")]
 layout_mode = 2
+hide_root = true
+scroll_horizontal_enabled = false
+script = ExtResource("1_r0du0")
+Menu = NodePath("DialoguePopupMenu")
 
-[node name="Tree" type="Tree" parent="FoldableContainer/PanelContainer"]
-layout_mode = 2
-columns = 8
-select_mode = 2
+[node name="Panel" type="Panel" parent="FoldableContainer/Tree"]
+visible = false
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LineEdit" type="LineEdit" parent="FoldableContainer/Tree/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.07
+offset_bottom = -0.12000275
+tooltip_text = "File"
+placeholder_text = "File"
+
+[node name="LineEdit2" type="SpinBox" parent="FoldableContainer/Tree/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.08
+anchor_right = 1.0
+anchor_bottom = 0.15
+offset_bottom = -0.12000275
+tooltip_text = "NPC ID"
+
+[node name="LineEdit3" type="SpinBox" parent="FoldableContainer/Tree/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.16
+anchor_right = 1.0
+anchor_bottom = 0.23
+offset_bottom = -0.11999512
+tooltip_text = "Dialogue number"
+
+[node name="ButtonCreateDialogue" type="Button" parent="FoldableContainer/Tree/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.24
+anchor_right = 1.0
+anchor_bottom = 0.31
+text = "Create dialogue"
+
+[node name="ButtonHidePopMenu" type="Button" parent="FoldableContainer/Tree/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.32
+anchor_right = 1.0
+anchor_bottom = 0.39
+text = "Back"
+
+[node name="DialoguePopupMenu" type="PopupMenu" parent="FoldableContainer/Tree" node_paths=PackedStringArray("DialogueTree", "File", "NPCID", "DialogueNumber")]
+oversampling_override = 1.0
+size = Vector2i(160, 100)
+item_count = 2
+item_0/text = "Add dialogue"
+item_0/id = 0
+item_1/text = "Delete dialogue"
+item_1/id = 1
+script = ExtResource("2_c6i3y")
+DialogueTree = NodePath("..")
+File = NodePath("../Panel/LineEdit")
+NPCID = NodePath("../Panel/LineEdit2")
+DialogueNumber = NodePath("../Panel/LineEdit3")
 
 [node name="PanelContainer2" type="VSplitContainer" parent="FoldableContainer"]
 layout_mode = 2
@@ -57,31 +175,170 @@ theme_override_constants/margin_right = 10
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="LoadButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer"]
-custom_minimum_size = Vector2(200, 0)
+[node name="LoadButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("FileDialog")]
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
+tooltip_text = "Load Dialogue"
 shortcut = SubResource("Shortcut_r0du0")
-text = "Загрузить диалоги"
+text = "LD"
 script = ExtResource("1_glv2v")
+FileDialog = NodePath("../../../../../OpenFiles")
 
 [node name="SaveButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer"]
-custom_minimum_size = Vector2(200, 0)
+custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
+tooltip_text = "Save Dialogue"
 shortcut = SubResource("Shortcut_fos0i")
-text = "Сохранить диалоги"
+text = "SD"
 
-[node name="HSplitContainer" type="HSplitContainer" parent="FoldableContainer/PanelContainer2"]
+[node name="LeftButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
-split_offset = 265
+shortcut = SubResource("Shortcut_3dxm6")
+text = "<
+"
+script = ExtResource("3_3dxm6")
+TextViwer = NodePath("../../../TextViwer")
 
-[node name="MarginContainer" type="MarginContainer" parent="FoldableContainer/PanelContainer2/HSplitContainer"]
+[node name="Number" type="OptionButton" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text_overrun_behavior = 4
+item_count = 2
+popup/item_0/id = 0
+popup/item_1/id = 1
+script = ExtResource("4_03owx")
+TextViwer = NodePath("../../../TextViwer")
+
+[node name="RightButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+shortcut = SubResource("Shortcut_trn2v")
+text = ">"
+script = ExtResource("4_lgr22")
+TextViwer = NodePath("../../../TextViwer")
+
+[node name="AddStepButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+shortcut = SubResource("Shortcut_20pc6")
+text = "+"
+script = ExtResource("6_wkp8b")
+TextViwer = NodePath("../../../TextViwer")
+
+[node name="AddOptionButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+shortcut = SubResource("Shortcut_c6i3y")
+text = "+*"
+script = ExtResource("7_20pc6")
+TextViwer = NodePath("../../../TextViwer")
+
+[node name="DeleteStepButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+shortcut = SubResource("Shortcut_j4qnp")
+text = "-"
+script = ExtResource("8_5vvyt")
+TextViwer = NodePath("../../../TextViwer")
+
+[node name="TextViwer" type="Control" parent="FoldableContainer/PanelContainer2" node_paths=PackedStringArray("StepControl", "OptionsControl")]
+layout_mode = 2
+script = ExtResource("3_cm0pq")
+StepControl = NodePath("DialogueStepControl")
+OptionsControl = NodePath("DialogueOptionsControl")
+
+[node name="DialogueStepControl" type="Control" parent="FoldableContainer/PanelContainer2/TextViwer" node_paths=PackedStringArray("Text", "NPCName", "Image", "Condition")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_trn2v")
+Text = NodePath("HSplitContainer/MarginContainer/DialogueStep")
+NPCName = NodePath("HSplitContainer/DialogueStep/VBoxContainer/LineEdit2")
+Image = NodePath("HSplitContainer/DialogueStep/VBoxContainer/LineEdit")
+Condition = NodePath("HSplitContainer/DialogueStep/TextEdit")
+
+[node name="HSplitContainer" type="HSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+split_offset = 585
+
+[node name="MarginContainer" type="MarginContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer"]
 layout_mode = 2
 
-[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/HSplitContainer/MarginContainer"]
+[node name="DialogueStep" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer/MarginContainer"]
+layout_mode = 2
+tooltip_text = "Dialogue text"
+placeholder_text = "Dialogue text"
+wrap_mode = 1
+
+[node name="DialogueStep" type="VSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer"]
 layout_mode = 2
 
-[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/HSplitContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer/DialogueStep"]
 layout_mode = 2
+
+[node name="LineEdit" type="LineEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer/DialogueStep/VBoxContainer"]
+layout_mode = 2
+tooltip_text = "Image"
+placeholder_text = "Image"
+
+[node name="LineEdit2" type="LineEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer/DialogueStep/VBoxContainer"]
+layout_mode = 2
+tooltip_text = "Name"
+placeholder_text = "Name"
+
+[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueStepControl/HSplitContainer/DialogueStep"]
+layout_mode = 2
+tooltip_text = "Condition"
+placeholder_text = "Condition"
+
+[node name="DialogueOptionsControl" type="Control" parent="FoldableContainer/PanelContainer2/TextViwer" node_paths=PackedStringArray("Text", "NextDialogue", "Changes")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("7_03owx")
+Text = NodePath("HSplitContainer/MarginContainer/DialogueOption")
+NextDialogue = NodePath("HSplitContainer/DialogueOption/LineEdit")
+Changes = NodePath("HSplitContainer/DialogueOption/TextEdit")
+
+[node name="HSplitContainer" type="HSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+split_offset = 585
+
+[node name="MarginContainer" type="MarginContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer"]
+layout_mode = 2
+
+[node name="DialogueOption" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="DialogueOption" type="VSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer"]
+layout_mode = 2
+
+[node name="LineEdit" type="SpinBox" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/DialogueOption"]
+layout_mode = 2
+tooltip_text = "Next dialogue"
+
+[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/DialogueOption"]
+layout_mode = 2
+tooltip_text = "Changes"
+placeholder_text = "Changes"
 
 [node name="OpenFiles" type="FileDialog" parent="."]
 oversampling_override = 1.0
@@ -95,4 +352,15 @@ show_hidden_files = true
 use_native_dialog = true
 script = ExtResource("2_uu6xs")
 
+[connection signal="cell_selected" from="FoldableContainer/Tree" to="FoldableContainer/Tree" method="OnCellSelected"]
+[connection signal="id_pressed" from="FoldableContainer/Tree/DialoguePopupMenu" to="FoldableContainer/Tree/DialoguePopupMenu" method="OnIdPressed"]
+[connection signal="popup_hide" from="FoldableContainer/Tree/DialoguePopupMenu" to="FoldableContainer/Tree/DialoguePopupMenu" method="OnPopupHide"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LoadButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LoadButton" method="OnPressed"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LeftButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LeftButton" method="OnPressed"]
+[connection signal="item_selected" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/Number" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/Number" method="OnItemSelected"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/RightButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/RightButton" method="OnPressed"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/AddStepButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/AddStepButton" method="OnPressed"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/AddOptionButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/AddOptionButton" method="OnPressed"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/DeleteStepButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/DeleteStepButton" method="OnPressed"]
 [connection signal="file_selected" from="OpenFiles" to="OpenFiles" method="OnFileSelected"]
+[connection signal="files_selected" from="OpenFiles" to="OpenFiles" method="OnFilesSelected"]

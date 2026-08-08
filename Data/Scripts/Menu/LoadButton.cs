@@ -3,10 +3,10 @@ using System;
 
 public partial class LoadButton : Button
 {
-	[Export] public Tree tree { get; set; }
+	[Export] public FileDialog FileDialog { get; set; }
 
-	public override void _Ready()
+	public void OnPressed()
 	{
-
-	}
+        FileDialog.Show();
+    }
 }
