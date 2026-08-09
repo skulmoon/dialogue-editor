@@ -3,6 +3,8 @@ using System;
 
 public partial class DialogueSpinBoxNumber : OptionButton
 {
+    private NPCDialogue _dialogue;
+
     [Export] public TextViwer TextViwer { get; set; }
 
     public override void _EnterTree()
@@ -14,6 +16,7 @@ public partial class DialogueSpinBoxNumber : OptionButton
 
     public void OnDialoguesChanged(NPCDialogue dialogue)
     {
+        _dialogue = dialogue;
         Clear();
         if (dialogue.Speech != null)
         {
@@ -23,13 +26,19 @@ public partial class DialogueSpinBoxNumber : OptionButton
         if (dialogue.Options != null)
         {
             for (int i = 0; i < dialogue.Options.Count; i++)
-                AddItem($"*{i + dialogue.Speech.Count} - {dialogue.Options[i].OptionText}");
+                AddItem($"*{i + dialogue.Speech.Count} - {dialogue.Options[i]?.OptionText ?? string.Empty}");
         }
     }
 
-    public void OnNumberChanged(int number) =>
+    public void OnNumberChanged(int number)
+    {
+        OnDialoguesChanged(_dialogue);
         Select(number);
+    }
 
-    public void OnItemSelected(int id) =>
+    public void OnItemSelected(int id)
+    {
+        TextViwer.SaveDialogueStep(TextViwer.CurrentNumber);
         TextViwer.CurrentNumber = id;
+    }
 }

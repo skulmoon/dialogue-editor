@@ -1,0 +1,1344 @@
+[
+  {
+    "NPCID": 5,
+    "DialogueNumber": 2,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "gtrbrbrtb",
+        "Image": "",
+        "Condition": "",
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199930496
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199928016
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Спасибо.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199926032
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 6,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199927520
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 3,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Возможно,+ этого и стоило ожидать.++.++.",
+        "Image": "",
+        "Condition": "",
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199925040
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 23,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199924544
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 5,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Ты же знаешь,+ что просто так я не дам информацию,+ хотя.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199925536
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Я могу тебе дать информацию о том,+ кто будет перед тобой стоять.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199926528
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "В основном,+ будут скелеты с лопатами или же голыми руками,+ однако.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297199928512
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "У одного из них граната.++ Вот именно из-за этого черта мы и не хотим туда суваться.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200102768
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Так что будь осторожней.++ Думаю,+ даже тебе не поздароится,+ если она повредит тебя.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200103264
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 23,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200101776
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 6,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Желаю удачи.",
+        "Image": "",
+        "Condition": "",
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200103760
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 23,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Удачи.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200107232
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 7,
+    "Speech": [
+      null,
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200101280
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Ты всё таки передумал?",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200104256
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 9,
+        "OptionText": "Помочь",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200106736
+        }
+      },
+      {
+        "NextDialogue": 8,
+        "OptionText": "Вопросы",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200106240
+        }
+      },
+      {
+        "NextDialogue": 12,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200104752
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 8,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Ты даже не принял предложение,+ так почему я должен отвечать на твои вопорсы?",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200105248
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Не пойми не правильно.++ Я готов ответить на них,+ но только если ты поможешь нам.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200107728
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Поверь,+ нам это необходимо,+ как и тебе.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200100288
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Если ты думаешь,+ что сможешь найти информацию сам,+ то заблуждаешься.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200105744
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Разумных существ тут не так много,+ а записки или дневники давно згнили.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200102272
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Я дам тебе время поразмысилть.++ Выбирай с умом.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200100784
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200113456
+        }
+      },
+      {
+        "NextDialogue": 230119,
+        "OptionText": "Напасть",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200112464
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 9,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "О.++.++.++ Просто прекрасно.++ Давай ближе к делу.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200109488
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Раз ты уже знаешь основную суть,+ то в таком случае ты явно должен быть уверен в своём решении.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200109984
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "И если ты действительно собрался туда.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200110480
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": ".++.++.++",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200114944
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Там,+ в конце,+ будет скелет с гранатой.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200115936
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Береги себя.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200111968
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 23,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200112960
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 10,
+    "Speech": [
+      null
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 21,
+    "Speech": [
+      null,
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200114448
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Что?",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200110976
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 13,
+        "OptionText": "Вопросы",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200113952
+        }
+      },
+      {
+        "NextDialogue": 11,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200111472
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 22,
+    "Speech": [
+      null,
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200115440
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 13,
+        "OptionText": "Вопросы",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200108496
+        }
+      },
+      {
+        "NextDialogue": 17,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200108992
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 23,
+    "Speech": [
+      null
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 11,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Интересно.++.++.++ Просто взял,+ подошёл,+ ушёл.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200078352
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Поверь,+ здесь нет ничего,+ что бы стоило тоего внимания.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200077360
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200077856
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Удачи.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200080336
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 12,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "Так ты ещё не определился.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200083312
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200078848
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Прошу,+ хорошо подумай.++ Ты видел,+ в каком состоянии находится большенство скелетов в этом аду.++ Мы -+ твоя надежда,+ чтоб ты мог разобраться во всём.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200079344
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Иди и подумай ещё.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200081328
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 13,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": "То,+ что тебе нужно,+ ты уже знаешь,+ больше могу сказать лишь после задания.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200079840
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200080832
+        }
+      },
+      {
+        "NextDialogue": 2151814,
+        "OptionText": "Напасть",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200081824
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 14,
+    "Speech": [
+      null,
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200084304
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Так... Какого твоё решение, голем?",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200082816
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 16,
+        "OptionText": "Помочь",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200082320
+        }
+      },
+      {
+        "NextDialogue": 15,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200084800
+        }
+      },
+      {
+        "NextDialogue": 20,
+        "OptionText": "Напасть",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200083808
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 15,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200085568
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Это странно.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200088544
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Я знаю,+ что ты смог уверенно пройти через те толпы скелетов,+ так почему сейчас так нерешителен?",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200086560
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Знаешь.++.++.++ Порой жизнь даёт нам сложные выборы и нам приходится выбирать.++ Попытки избежать этого выбора лишь оттягиваю неизбежное.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200092512
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Возможно,+ тебе не понятно,+ что происходит вокруг,+ и я могу понять.++ Неизвестность может пугать.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200086064
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Просто обдумай всё как следует.++ В этом месте у тебя много времени на раздумья.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200093008
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 16,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200089536
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Пусть ты и колебался,+ но я признателен.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200091520
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Спасибо.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200089040
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200092016
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 17,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200091024
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Я понял.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200088048
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Тебе просто интерестно то как я поступлю если ты будешь продолжать так делать.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200090528
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "У меня был один такой знакомый.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200087056
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Он мог покрутиться на месте, начать бегать или нести бессмыслицу и всё лишь чтоб посмотреть на реакцию других.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200087552
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200090032
+        }
+      },
+      {
+        "Name": "Командир",
+        "Text": "Никогда его не понимал.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200132944
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 18,
+    "Speech": [
+      {
+        "Name": "Командир",
+        "Text": ".++.++.++",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200133440
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200128480
+        }
+      },
+      {
+        "NextDialogue": 10715,
+        "OptionText": "Напасть",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200128976
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 230119,
+    "Speech": [
+      {
+        "Name": "Бог этого мира",
+        "Text": "Сорянчик,+ я не запили эту опцию.++ Ждите следующих ++++о++++б+++н+++о++в++л+е+ний!!!))))",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200129472
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200127984
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 2151814,
+    "Speech": [
+      {
+        "Name": "Бог этого мира",
+        "Text": "Да обещаю,+ скоро выпущу обнову и добавлю этот вариант в диалогах,+ честно!))))",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200130960
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200133936
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 20,
+    "Speech": [
+      {
+        "Name": "Бог этого мира",
+        "Text": "Эх,+ будь я хоть чуть усердние,+ то у тебя была бы это опция.++ Я позже её добавлю((((((.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200131456
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 16,
+        "OptionText": "Помочь",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200134432
+        }
+      },
+      {
+        "NextDialogue": 15,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200129968
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 255011819,
+    "Speech": [
+      {
+        "Name": "Бог этого мира",
+        "Text": "Надеюсь,+ когда-нибудь тут пояится код,+ но пока я ленивый.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200134928
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 10,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200135424
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 5,
+    "DialogueNumber": 10715,
+    "Speech": [
+      {
+        "Name": "Бог этого мира",
+        "Text": "Прости, но тут пока ничего)))). Зато можешь чекнуть этот файл, если хочешь.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200130464
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 18,
+        "OptionText": "Уйти",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2297200131952
+        }
+      }
+    ]
+  }
+]

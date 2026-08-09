@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bhtdwjopl1m7j"]
+
+[node name="_PopupMenu_239" type="PopupMenu"]
+oversampling_override = 1.0
+position = Vector2i(397, 323)
+size = Vector2i(346, 325)
+visible = true
+min_size = Vector2i(346, 325)

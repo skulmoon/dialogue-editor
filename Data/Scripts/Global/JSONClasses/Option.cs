@@ -7,4 +7,5 @@ public partial class Option : Resource
     [Export] public int NextDialogue { get; set; }
     [Export] public string OptionText { get; set; }
     [Export] public string Changes { get; set; }
+    [Export] public string Condition { get; set; }
 }

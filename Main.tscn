@@ -1,13 +1,16 @@
-[gd_scene load_steps=28 format=3 uid="uid://ddwncbyogqcud"]
+[gd_scene load_steps=31 format=3 uid="uid://ddwncbyogqcud"]
 
 [ext_resource type="Script" uid="uid://cx7rt5p04j7dk" path="res://Data/Scripts/Menu/LoadButton.cs" id="1_glv2v"]
 [ext_resource type="Script" uid="uid://cu843st3gyh0c" path="res://Data/Scripts/Menu/DialogueTree.cs" id="1_r0du0"]
-[ext_resource type="Script" uid="uid://cmmdummsgmi8n" path="res://Data/Scripts/Menu/DialoguePopupMenu.cs" id="2_c6i3y"]
+[ext_resource type="Script" uid="uid://dalodtfbqlsos" path="res://Data/Scripts/Menu/ButtonCreateDialogue.cs" id="2_c2ibq"]
+[ext_resource type="Script" uid="uid://33vgkb3ek0rq" path="res://Data/Scripts/Menu/ButtonHidePopMenu.cs" id="2_c6i3y"]
 [ext_resource type="Script" uid="uid://dl5ifm37jwmti" path="res://Data/Scripts/Menu/OpenFiles.cs" id="2_uu6xs"]
 [ext_resource type="Script" uid="uid://dgn1d2pg87faw" path="res://Data/Scripts/Menu/LeftButton.cs" id="3_3dxm6"]
 [ext_resource type="Script" uid="uid://d431jlcohynm" path="res://Data/Scripts/Menu/TextViwer.cs" id="3_cm0pq"]
 [ext_resource type="Script" uid="uid://dp0bq4nxl0ipc" path="res://Data/Scripts/Menu/DialogueSpinBoxNumber.cs" id="4_03owx"]
+[ext_resource type="Script" uid="uid://bjbe6i05xx3nx" path="res://Data/Scripts/Menu/DialoguePopupMenu.cs" id="4_j4qnp"]
 [ext_resource type="Script" uid="uid://6mr1yex3u7jw" path="res://Data/Scripts/Menu/RightButton.cs" id="4_lgr22"]
+[ext_resource type="Script" uid="uid://rsf14f2q0p3g" path="res://Data/Scripts/Menu/SaveButton.cs" id="6_fpfj3"]
 [ext_resource type="Script" uid="uid://ba2cxdcnhcgsp" path="res://Data/Scripts/Menu/DialogueStepControl.cs" id="6_trn2v"]
 [ext_resource type="Script" uid="uid://bjgpkebdbixpr" path="res://Data/Scripts/Menu/AddStepButton.cs" id="6_wkp8b"]
 [ext_resource type="Script" uid="uid://b042byecsxdbs" path="res://Data/Scripts/Menu/DialogueOptionsControl.cs" id="7_03owx"]
@@ -78,6 +81,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 
 [node name="FoldableContainer" type="HSplitContainer" parent="."]
 layout_mode = 1
@@ -132,31 +136,39 @@ anchor_bottom = 0.23
 offset_bottom = -0.11999512
 tooltip_text = "Dialogue number"
 
-[node name="ButtonCreateDialogue" type="Button" parent="FoldableContainer/Tree/Panel"]
+[node name="ButtonCreateDialogue" type="Button" parent="FoldableContainer/Tree/Panel" node_paths=PackedStringArray("File", "NPCID", "DialogueNumber")]
 layout_mode = 1
 anchors_preset = -1
 anchor_top = 0.24
 anchor_right = 1.0
 anchor_bottom = 0.31
 text = "Create dialogue"
+script = ExtResource("2_c2ibq")
+File = NodePath("../LineEdit")
+NPCID = NodePath("../LineEdit2")
+DialogueNumber = NodePath("../LineEdit3")
 
-[node name="ButtonHidePopMenu" type="Button" parent="FoldableContainer/Tree/Panel"]
+[node name="ButtonHidePopMenu" type="Button" parent="FoldableContainer/Tree/Panel" node_paths=PackedStringArray("Panel")]
 layout_mode = 1
 anchors_preset = -1
 anchor_top = 0.32
 anchor_right = 1.0
 anchor_bottom = 0.39
 text = "Back"
+script = ExtResource("2_c6i3y")
+Panel = NodePath("..")
 
 [node name="DialoguePopupMenu" type="PopupMenu" parent="FoldableContainer/Tree" node_paths=PackedStringArray("DialogueTree", "File", "NPCID", "DialogueNumber")]
 oversampling_override = 1.0
-size = Vector2i(160, 100)
+position = Vector2i(397, 323)
+size = Vector2i(346, 325)
+min_size = Vector2i(346, 325)
 item_count = 2
 item_0/text = "Add dialogue"
 item_0/id = 0
 item_1/text = "Delete dialogue"
 item_1/id = 1
-script = ExtResource("2_c6i3y")
+script = ExtResource("4_j4qnp")
 DialogueTree = NodePath("..")
 File = NodePath("../Panel/LineEdit")
 NPCID = NodePath("../Panel/LineEdit2")
@@ -190,6 +202,7 @@ layout_mode = 2
 tooltip_text = "Save Dialogue"
 shortcut = SubResource("Shortcut_fos0i")
 text = "SD"
+script = ExtResource("6_fpfj3")
 
 [node name="LeftButton" type="Button" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
 custom_minimum_size = Vector2(60, 0)
@@ -203,10 +216,9 @@ TextViwer = NodePath("../../../TextViwer")
 [node name="Number" type="OptionButton" parent="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer" node_paths=PackedStringArray("TextViwer")]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
-text_overrun_behavior = 4
-item_count = 2
-popup/item_0/id = 0
-popup/item_1/id = 1
+text_overrun_behavior = 3
+autowrap_trim_flags = 0
+clip_text = true
 script = ExtResource("4_03owx")
 TextViwer = NodePath("../../../TextViwer")
 
@@ -249,7 +261,6 @@ StepControl = NodePath("DialogueStepControl")
 OptionsControl = NodePath("DialogueOptionsControl")
 
 [node name="DialogueStepControl" type="Control" parent="FoldableContainer/PanelContainer2/TextViwer" node_paths=PackedStringArray("Text", "NPCName", "Image", "Condition")]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -301,7 +312,8 @@ layout_mode = 2
 tooltip_text = "Condition"
 placeholder_text = "Condition"
 
-[node name="DialogueOptionsControl" type="Control" parent="FoldableContainer/PanelContainer2/TextViwer" node_paths=PackedStringArray("Text", "NextDialogue", "Changes")]
+[node name="DialogueOptionsControl" type="Control" parent="FoldableContainer/PanelContainer2/TextViwer" node_paths=PackedStringArray("Text", "NextDialogue", "Changes", "Condition")]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -311,7 +323,8 @@ grow_vertical = 2
 script = ExtResource("7_03owx")
 Text = NodePath("HSplitContainer/MarginContainer/DialogueOption")
 NextDialogue = NodePath("HSplitContainer/DialogueOption/LineEdit")
-Changes = NodePath("HSplitContainer/DialogueOption/TextEdit")
+Changes = NodePath("HSplitContainer/DialogueOption/VSplitContainer/TextEdit")
+Condition = NodePath("HSplitContainer/DialogueOption/VSplitContainer/TextEdit2")
 
 [node name="HSplitContainer" type="HSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl"]
 layout_mode = 1
@@ -327,6 +340,7 @@ layout_mode = 2
 
 [node name="DialogueOption" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/MarginContainer"]
 layout_mode = 2
+placeholder_text = "Option"
 
 [node name="DialogueOption" type="VSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer"]
 layout_mode = 2
@@ -335,10 +349,19 @@ layout_mode = 2
 layout_mode = 2
 tooltip_text = "Next dialogue"
 
-[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/DialogueOption"]
+[node name="VSplitContainer" type="VSplitContainer" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/DialogueOption"]
+layout_mode = 2
+split_offset = 235
+
+[node name="TextEdit" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/DialogueOption/VSplitContainer"]
 layout_mode = 2
 tooltip_text = "Changes"
 placeholder_text = "Changes"
+
+[node name="TextEdit2" type="TextEdit" parent="FoldableContainer/PanelContainer2/TextViwer/DialogueOptionsControl/HSplitContainer/DialogueOption/VSplitContainer"]
+layout_mode = 2
+tooltip_text = "Condition"
+placeholder_text = "Condition"
 
 [node name="OpenFiles" type="FileDialog" parent="."]
 oversampling_override = 1.0
@@ -353,9 +376,11 @@ use_native_dialog = true
 script = ExtResource("2_uu6xs")
 
 [connection signal="cell_selected" from="FoldableContainer/Tree" to="FoldableContainer/Tree" method="OnCellSelected"]
+[connection signal="pressed" from="FoldableContainer/Tree/Panel/ButtonCreateDialogue" to="FoldableContainer/Tree/Panel/ButtonCreateDialogue" method="OnPressed"]
+[connection signal="pressed" from="FoldableContainer/Tree/Panel/ButtonHidePopMenu" to="FoldableContainer/Tree/Panel/ButtonHidePopMenu" method="OnPressed"]
 [connection signal="id_pressed" from="FoldableContainer/Tree/DialoguePopupMenu" to="FoldableContainer/Tree/DialoguePopupMenu" method="OnIdPressed"]
-[connection signal="popup_hide" from="FoldableContainer/Tree/DialoguePopupMenu" to="FoldableContainer/Tree/DialoguePopupMenu" method="OnPopupHide"]
 [connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LoadButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LoadButton" method="OnPressed"]
+[connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/SaveButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/SaveButton" method="OnPressed"]
 [connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LeftButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/LeftButton" method="OnPressed"]
 [connection signal="item_selected" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/Number" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/Number" method="OnItemSelected"]
 [connection signal="pressed" from="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/RightButton" to="FoldableContainer/PanelContainer2/MarginContainer/HBoxContainer/RightButton" method="OnPressed"]

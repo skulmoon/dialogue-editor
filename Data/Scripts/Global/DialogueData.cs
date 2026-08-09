@@ -50,4 +50,10 @@ public class DialogueData
             _ => "unknow" + id,
         };
     }
+
+    public void UpdateDialogues() =>
+        Dialogues = Dialogues;
+
+    public void UpdateCurrentDialogue() =>
+        CurrentDialogue = CurrentDialogue;
 }

@@ -1,0 +1,190 @@
+[
+  {
+    "NPCID": 0,
+    "DialogueNumber": 1,
+    "Speech": [
+      {
+        "Name": "Бог этого мира.",
+        "Text": "И даже тут этот ленивый засранец Скалмун пока ничего не сделал((((.++.++.++ Но обещаю,+ в этой части будет интересно)))).",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825888548656
+        }
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 6,
+    "DialogueNumber": 1,
+    "Speech": [
+      {
+        "Name": "",
+        "Text": "123",
+        "Image": "",
+        "Condition": "",
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895280688
+        }
+      },
+      {
+        "Name": "???",
+        "Text": "СТОЯТЬ!!!",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825888549152
+        }
+      },
+      null,
+      {
+        "Name": "???",
+        "Text": "Не смей двигаться.++ Иначе.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825888541712
+        }
+      },
+      {
+        "Name": "???",
+        "Text": "+Я+ +Р+А+З+Д+Р+О+Б+Л+Ю+ +Т+Е+Б+Я+ +В+ +П+Ы+Л+Ь+.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825888542208
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 2,
+        "OptionText": "Успокоить",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825888546176
+        }
+      }
+    ]
+  },
+  {
+    "NPCID": 6,
+    "DialogueNumber": 2,
+    "Speech": [
+      {
+        "Name": "???",
+        "Text": "++.++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895278208
+        }
+      },
+      {
+        "Name": "???",
+        "Text": "А ты мирный.++ Даже не нападаешь.++ Кажется,+ состаишь из руды.++ Но.++.++.++ Её запасы давно иссякли в той части.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895278704
+        }
+      },
+      {
+        "Name": "???",
+        "Text": ".++.++.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895276720
+        }
+      },
+      {
+        "Name": "???",
+        "Text": "Иди за мной.++ И не пытайся что-то выкинуть.++ Командир решит,+ что с тобой делать.",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895277216
+        }
+      },
+      null
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 6,
+    "DialogueNumber": 805,
+    "Speech": [
+      {
+        "Name": "Бог этого мира.",
+        "Text": "Сорян)))))),+ я пока не накодил сценарий для этого.++ Ждите следующих обновлений!",
+        "Image": "",
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895279696
+        }
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 2,
+        "OptionText": "Успокоить",
+        "Changes": null,
+        "Condition": null,
+        "ResourceLocalToScene": false,
+        "ResourcePath": "",
+        "ResourceName": "",
+        "ResourceSceneUniqueId": "",
+        "NativeInstance": {
+          "value": 2825895281680
+        }
+      }
+    ]
+  }
+]

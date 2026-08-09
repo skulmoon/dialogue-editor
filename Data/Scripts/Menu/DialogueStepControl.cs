@@ -1,6 +1,6 @@
 using Godot;
 using System;
-using static System.Net.Mime.MediaTypeNames;
+using System.Collections.Generic;
 
 public partial class DialogueStepControl : DialoguePartControl
 {
@@ -22,11 +22,13 @@ public partial class DialogueStepControl : DialoguePartControl
         if (dialogue != null)
         {
             bool isEmpty =
-                Text.Text != string.Empty &&
-                NPCName.Text != string.Empty &&
-                Image.Text != string.Empty;
-            if (isEmpty)
+                Text.Text == string.Empty &&
+                NPCName.Text == string.Empty &&
+                Image.Text == string.Empty;
+            if (!isEmpty)
             {
+                if (dialogue.Speech[number] == null)
+                    dialogue.Speech[number] = new IDAndText();
                 dialogue.Speech[number].Text = Text.Text;
                 dialogue.Speech[number].Name = NPCName.Text;
                 dialogue.Speech[number].Image = Image.Text;

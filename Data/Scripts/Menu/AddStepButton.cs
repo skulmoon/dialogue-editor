@@ -17,6 +17,6 @@ public partial class AddStepButton : Button
         {
             Global.DialogueData.CurrentDialogue.Speech.Insert(TextViwer.CurrentNumber, new IDAndText());
         }
-        Global.DialogueData.CurrentDialogue = Global.DialogueData.CurrentDialogue;
+        Global.DialogueData.UpdateCurrentDialogue();
     }
 }

@@ -14,7 +14,7 @@ public partial class DialoguePopupMenu : PopupMenu
         TreeItem item = DialogueTree.GetItemAtPosition(Position);
         if (id == 0)
         {
-            if (item != null) 
+            if (item != null)
             {
                 if (int.TryParse(item.GetText(0), out int textResult))
                 {
@@ -33,7 +33,6 @@ public partial class DialoguePopupMenu : PopupMenu
                 }
             }
             DialogueTree.GetNode<Panel>("Panel").Show();
-            DialogueTree.Clear();
         }
         else if (id == 1)
         {
@@ -42,7 +41,7 @@ public partial class DialoguePopupMenu : PopupMenu
                 if (int.TryParse(item.GetText(0), out int textResult))
                 {
                     List<NPCDialogue> dialogues = Global.DialogueData.Dialogues[item.GetParent().GetParent().GetText(0)];
-                    dialogues.RemoveAll(x => 
+                    dialogues.RemoveAll(x =>
                     (x.NPCID == int.Parse(item.GetParent().GetTooltipText(0))) &&
                     (x.DialogueNumber == int.Parse(item.GetText(0))));
                 }
@@ -56,12 +55,12 @@ public partial class DialoguePopupMenu : PopupMenu
                     Global.DialogueData.Dialogues.Remove(item.GetText(0));
                 }
             }
-            Global.DialogueData.Dialogues = Global.DialogueData.Dialogues;
+            Global.DialogueData.UpdateDialogues();
         }
     }
 
     public void OnPopupHide()
     {
-        CallDeferred("gui_release_focus");
+        GuiReleaseFocus();
     }
 }

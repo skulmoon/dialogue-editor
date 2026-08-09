@@ -8,12 +8,6 @@ public partial class OpenFiles : FileDialog
     [Export] public Tree DialogueTree { get; set; }
     [Export] public SpinBox SpinBox { get; set; }
 
-    public override void _Ready()
-    {
-        OnFileSelected("C:\\Материалы для игр\\TheWillofCrystal\\Data\\Dialogs\\ru\\Chapter1\\SkeletonBase.json");
-        base._Ready();
-    }
-
     public void OnFileSelected(string path) =>
         OnFilesSelected(new string[] { path });
 

@@ -16,6 +16,6 @@ public partial class AddOptionButton : Button
         {
             Global.DialogueData.CurrentDialogue.Options.Insert(TextViwer.CurrentNumber - Global.DialogueData.CurrentDialogue.Speech.Count, new Option());
         }
-        Global.DialogueData.CurrentDialogue = Global.DialogueData.CurrentDialogue;
+        Global.DialogueData.UpdateCurrentDialogue();
     }
 }

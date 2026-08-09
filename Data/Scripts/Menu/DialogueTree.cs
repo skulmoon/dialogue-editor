@@ -14,10 +14,12 @@ public partial class DialogueTree : Tree
 
     public override void _Input(InputEvent @event)
     {
-        if (@event is InputEventMouseButton mouseEvent && mouseEvent.Pressed && mouseEvent.ButtonIndex == MouseButton.Right)
+        if (@event is InputEventMouseButton mouseEvent && !mouseEvent.Pressed && mouseEvent.ButtonIndex == MouseButton.Right)
         {
-            Menu.Popup(new Rect2I((Vector2I)mouseEvent.GlobalPosition, new Vector2I(0, 0)));
+            if (GetRect().HasPoint(mouseEvent.GlobalPosition))
+                Menu.Popup(new Rect2I((Vector2I)mouseEvent.GlobalPosition, new Vector2I(0, 0)));
         }
+        base._Input(@event);
     }
 
     public void OnDialogueChanged(Dictionary<string, List<NPCDialogue>> dialogues)

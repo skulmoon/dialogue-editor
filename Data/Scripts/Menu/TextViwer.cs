@@ -8,7 +8,7 @@ public partial class TextViwer : Control
     private int _currentNumber = 0;
 
     public int MaxNumber { get => (_dialogue?.Speech?.Count ?? 0) + (_dialogue?.Options?.Count ?? 0) - 1; }
-    public bool IsCurrenSpeech { get => _currentNumber < _dialogue.Speech.Count; }
+    public bool IsCurrenSpeech { get => _currentNumber < (_dialogue?.Speech?.Count ?? 0); }
     [Export] public DialogueStepControl StepControl { get; set; }
     [Export] public DialogueOptionsControl OptionsControl { get; set; }
 
@@ -41,6 +41,8 @@ public partial class TextViwer : Control
 
     public void OnCurrentDialogueCanged(NPCDialogue dialogue)
     {
+        if (_dialogue != null)
+            SaveDialogueStep(_currentNumber);
         _dialogue = dialogue;
         if (MaxNumber > CurrentNumber)
             CurrentNumber = CurrentNumber;
@@ -57,6 +59,7 @@ public partial class TextViwer : Control
         }
         else
             StepControl.SaveDialogueStep(number, _dialogue);
+        GD.Print(1);
     }
 
     public void LoadDialogueStep(int number)
