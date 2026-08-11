@@ -1,8 +1,7 @@
 using Godot;
 using System;
 
-[GlobalClass]
-public partial class IDAndText : Resource
+public class IDAndText
 {
     [Export] public string Name { get; set; }
     [Export] public string Text { get; set; }

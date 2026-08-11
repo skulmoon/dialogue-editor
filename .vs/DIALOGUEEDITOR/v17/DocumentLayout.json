@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\global\\jsonclasses\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\global\\jsonclasses\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\global\\jsonclasses\\npcdialogues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\global\\jsonclasses\\npcdialogues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\global\\jsonclasses\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\global\\jsonclasses\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\global\\jsonclasses\\npcdialogueparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\global\\jsonclasses\\npcdialogueparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\global\\jsonclasses\\idandtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\global\\jsonclasses\\idandtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\savebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\savebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\dialoguespinboxnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\dialoguespinboxnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\dialogueoptionscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\dialogueoptionscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\dialoguepopupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\dialoguepopupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\deletestepbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\dialoguespinboxnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\dialoguespinboxnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\textviwer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\textviwer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\rightbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\rightbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\dialogueoptionscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\dialogueoptionscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\dialoguestepcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\buttoncreatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\buttoncreatedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|c:\\\u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\data\\scripts\\menu\\savebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66123D97-F333-46F9-911A-1630073EB7F2}|DialogueEditor.csproj|solutionrelative:data\\scripts\\menu\\savebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 124,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,33 +106,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DialogueOptionsControl.cs",
-              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
-              "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
-              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
-              "RelativeToolTip": "Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Option.cs",
+              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\Option.cs",
+              "RelativeDocumentMoniker": "Data\\Scripts\\Global\\JSONClasses\\Option.cs",
+              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\Option.cs",
+              "RelativeToolTip": "Data\\Scripts\\Global\\JSONClasses\\Option.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T14:40:51.504Z",
+              "WhenOpened": "2026-08-10T20:00:53.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NPCDialogues.cs",
+              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\NPCDialogues.cs",
+              "RelativeDocumentMoniker": "Data\\Scripts\\Global\\JSONClasses\\NPCDialogues.cs",
+              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\NPCDialogues.cs",
+              "RelativeToolTip": "Data\\Scripts\\Global\\JSONClasses\\NPCDialogues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T20:00:51.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NPCDialogueParams.cs",
+              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\NPCDialogueParams.cs",
+              "RelativeDocumentMoniker": "Data\\Scripts\\Global\\JSONClasses\\NPCDialogueParams.cs",
+              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\NPCDialogueParams.cs",
+              "RelativeToolTip": "Data\\Scripts\\Global\\JSONClasses\\NPCDialogueParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T20:00:24.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IDAndText.cs",
+              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\IDAndText.cs",
+              "RelativeDocumentMoniker": "Data\\Scripts\\Global\\JSONClasses\\IDAndText.cs",
+              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\IDAndText.cs",
+              "RelativeToolTip": "Data\\Scripts\\Global\\JSONClasses\\IDAndText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T20:00:14.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPCDialogue.cs",
+              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\NPCDialogue.cs",
+              "RelativeDocumentMoniker": "Data\\Scripts\\Global\\JSONClasses\\NPCDialogue.cs",
+              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSONClasses\\NPCDialogue.cs",
+              "RelativeToolTip": "Data\\Scripts\\Global\\JSONClasses\\NPCDialogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T20:00:05.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DialogueOptionsControl.cs",
+              "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
+              "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
+              "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
+              "RelativeToolTip": "Data\\Scripts\\Menu\\DialogueOptionsControl.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T14:40:51.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DialogueSpinBoxNumber.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueSpinBoxNumber.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DialogueSpinBoxNumber.cs",
               "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueSpinBoxNumber.cs",
               "RelativeToolTip": "Data\\Scripts\\Menu\\DialogueSpinBoxNumber.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-09T14:37:28.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "LeftButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\LeftButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\LeftButton.cs",
@@ -120,12 +204,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\LeftButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T14:35:37.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T14:35:37.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "RightButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\RightButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\RightButton.cs",
@@ -133,12 +216,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\RightButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T14:34:19.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T14:34:19.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "TextViwer.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\TextViwer.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\TextViwer.cs",
@@ -146,12 +228,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\TextViwer.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAIwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T14:21:12.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T14:21:12.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "DialogueStepControl.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueStepControl.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DialogueStepControl.cs",
@@ -159,12 +240,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\DialogueStepControl.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAcwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T14:21:05.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T14:21:05.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "OpenFiles.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\OpenFiles.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\OpenFiles.cs",
@@ -176,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "LoadButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\LoadButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\LoadButton.cs",
@@ -184,24 +264,24 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\LoadButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T14:06:47.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-09T14:06:47.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "SaveButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\SaveButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\SaveButton.cs",
               "ToolTip": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\SaveButton.cs",
               "RelativeToolTip": "Data\\Scripts\\Menu\\SaveButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T13:59:49.874Z"
+              "WhenOpened": "2026-08-09T13:59:49.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "JSON.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Global\\JSON.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Global\\JSON.cs",
@@ -213,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "ButtonCreateDialogue.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\ButtonCreateDialogue.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\ButtonCreateDialogue.cs",
@@ -225,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "ButtonHidePopMenu.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\ButtonHidePopMenu.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\ButtonHidePopMenu.cs",
@@ -237,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "DialoguePopupMenu.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialoguePopupMenu.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DialoguePopupMenu.cs",
@@ -245,12 +325,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\DialoguePopupMenu.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAowCIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T18:39:26.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-08T18:39:26.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "DialogueTree.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DialogueTree.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DialogueTree.cs",
@@ -262,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DeleteStepButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\DeleteStepButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\DeleteStepButton.cs",
@@ -270,12 +349,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\DeleteStepButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T21:22:15.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T21:22:15.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "AddOptionButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\AddOptionButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\AddOptionButton.cs",
@@ -283,12 +361,11 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\AddOptionButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T21:12:44.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T21:12:44.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AddStepButton.cs",
               "DocumentMoniker": "C:\\\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u0434\u043B\u044F \u0438\u0433\u0440\\dialogue-editor\\Data\\Scripts\\Menu\\AddStepButton.cs",
               "RelativeDocumentMoniker": "Data\\Scripts\\Menu\\AddStepButton.cs",
@@ -296,8 +373,7 @@
               "RelativeToolTip": "Data\\Scripts\\Menu\\AddStepButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T19:52:29.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T19:52:29.602Z"
             }
           ]
         },

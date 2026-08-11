@@ -1,11 +1,10 @@
 using Godot;
 using System;
 
-[GlobalClass]
-public partial class Option : Resource
+public class Option
 {
-    [Export] public int NextDialogue { get; set; }
-    [Export] public string OptionText { get; set; }
-    [Export] public string Changes { get; set; }
-    [Export] public string Condition { get; set; }
+    public int NextDialogue { get; set; }
+    public string OptionText { get; set; }
+    public string Changes { get; set; }
+    public string Condition { get; set; }
 }
