@@ -17,7 +17,7 @@ public partial class OpenFiles : FileDialog
         foreach(string path in paths)
         {
             List<NPCDialogue> dialogues = Global.JSON.GetDialogues(path);
-            string file = path.Split('/')[^1];
+            string file = path;
             dictionary.Add(file, dialogues);
         }
         Global.DialogueData.LoadDialogue(dictionary);

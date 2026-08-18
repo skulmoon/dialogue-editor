@@ -1,0 +1,79 @@
+[
+  {
+    "NPCID": 1,
+    "DialogueNumber": 1,
+    "Speech": [
+      {
+        "Name": "Vitalik",
+        "Text": "Hello, I am Vitalik.",
+        "Image": "res://icon.svg",
+        "Condition": ""
+      },
+      {
+        "Name": "Vitalik",
+        "Text": "It's really hard day...",
+        "Image": "res://icon.svg",
+        "Condition": null
+      }
+    ],
+    "Options": [
+      {
+        "NextDialogue": 2,
+        "OptionText": "Agree",
+        "Changes": null,
+        "Condition": null
+      },
+      {
+        "NextDialogue": 3,
+        "OptionText": "Disagree",
+        "Changes": null,
+        "Condition": null
+      }
+    ]
+  },
+  {
+    "NPCID": 1,
+    "DialogueNumber": 2,
+    "Speech": [
+      {
+        "Name": "Vitalik",
+        "Text": "You are a really worker, kiddo!",
+        "Image": "res://icon.svg",
+        "Condition": ""
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 1,
+    "DialogueNumber": 3,
+    "Speech": [
+      {
+        "Name": "Vitalik",
+        "Text": "Okay.",
+        "Image": "res://icon.svg",
+        "Condition": ""
+      }
+    ],
+    "Options": null
+  },
+  {
+    "NPCID": 1,
+    "DialogueNumber": 4,
+    "Speech": [
+      {
+        "Name": "",
+        "Text": "123435435",
+        "Image": "",
+        "Condition": ""
+      },
+      {
+        "Name": "",
+        "Text": "123435435",
+        "Image": "",
+        "Condition": ""
+      }
+    ],
+    "Options": null
+  }
+]

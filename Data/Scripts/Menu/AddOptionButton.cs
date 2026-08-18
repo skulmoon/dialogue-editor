@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Collections.Generic;
 
 public partial class AddOptionButton : Button
 {
@@ -7,6 +8,8 @@ public partial class AddOptionButton : Button
 
     public void OnPressed()
     {
+        if (Global.DialogueData.CurrentDialogue.Options == null)
+            Global.DialogueData.CurrentDialogue.Options = new List<Option>();
         if (TextViwer.CurrentNumber < Global.DialogueData.CurrentDialogue.Speech.Count)
         {
             Global.DialogueData.CurrentDialogue.Options.Insert(0, new Option());

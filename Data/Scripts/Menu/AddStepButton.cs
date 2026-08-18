@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Collections.Generic;
 
 public partial class AddStepButton : Button
 {
@@ -7,6 +8,8 @@ public partial class AddStepButton : Button
 
     public void OnPressed()
     {
+        if (Global.DialogueData.CurrentDialogue.Speech == null)
+            Global.DialogueData.CurrentDialogue.Speech = new List<IDAndText>();
         int maxNumber = Global.DialogueData.CurrentDialogue.Speech.Count;
         if (TextViwer.CurrentNumber >= Global.DialogueData.CurrentDialogue.Speech.Count)
         {
